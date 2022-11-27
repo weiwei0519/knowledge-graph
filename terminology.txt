@@ -1,0 +1,296 @@
+spacy词性标注解释【dep、pos、tag】
+
+dep:
+
+tag:
+
+pos:
+
+关系表示
+
+dep:
+
+ROOT  --  None 中心词，通常是动词 最重要的词，从它开始，根节点
+acl  --  clausal modifier of noun (adjectival clause)形容词性从句
+acomp  --  adjectival complement 形容词的补充
+advcl  --  adverbial clause modifieradvcl 用于修饰谓语的状语从句
+advmod  --  adverbial modifier 状语，副词修饰语是副词或副词短语，它修饰另一个词的意思。
+agent  --  agent 有意识地实施动作者 主动形式的表主语
+amod  --  adjectival modifier 形容词修饰语，是修饰另一个单词(通常是名词)的形容词或形容词短语
+appos  --  appositional modifier同位词，同位修饰语
+attr  --  attribute 定语(attr)是一个名词短语，通常跟在一个系词动词后面，是一个非 vp 谓语aux  --  auxiliary AUX  *is, has (done), will (do), should (do)*助动词(助动词)是一个助动词或情态动词，进一步提供有关主要动词的信息
+auxpass  --  auxiliary (passive)   Kennedy was killed   Kennedy has been killed  被动助动词是修饰被动动词的助动词 be，become 或 get
+case  --  case marking 大小写标记(大小写)可以是所有格标记
+cc  --  coordinating conjunction 连词，协调连词(cc)是协调中最左边的连词的依赖关系。
+ccomp  --  clausal complement 从句补充,是一个带有内部主语的从句
+compound  --  compound 复合词，既可以是修饰名词短语中心的名词，也可以是修饰数量词短语中心的数字，或者是修饰前置词短语中心的介词。
+conj  --  conjunct    *and, or, but* 连接词(conj)是协调中最左边的连接词的依赖关系
+csubj  --  clausal subject 从主关系 从句主语
+csubjpass  --  clausal subject (passive) 主从被动关系 从句被动主语是处于被动动词主语位置的从句
+dative  --  dative标记动词的间接宾语、某些介词的宾语或占有某人或某物的人或物\与格(与格)是与格移位动词的名词宾语或介词宾语
+dep  --  unclassified dependent 非分类依赖项(dep)是不满足任何其他依赖项条件的依赖项
+det  --  determiner限定词
+dobj  --  direct object 直接宾语
+expl  --  expletivee 处于主语位置
+intj  --  interjection *psst, ouch, bravo, hello*
+mark  --  marker 标记(mark)要么是引入状语从句修饰语的从属连词(例如，although，because，while) ，要么是引入小句补足语的从属连词 if，that，or whether。
+meta  --  meta modifier  修饰语(meta)是在短语或子句中随机插入的信息。
+neg  --  negation modifier 否定修饰语(否定)是一个副词，它给出否定的意思
+nmod  --  modifier of nominal 名词性修饰语(nmod)是修饰名词短语首部的任何未分类的从属词
+npadvmod  --  noun phrase as adverbial modifier
+nsubj  --  nominal subject名词性主语
+nsubjpass  --  nominal subject (passive)被动名词主语是名词短语，是被动从句的句法主语
+nummod  --  numeric modifier 数字修饰语是修饰名词短语首部的任何数字或量词短语
+oprd  --  object predicate 宾语谓词(oprd)是一个小子句中的非谓词，其功能类似于宾语的谓词
+parataxis  --  parataxis 插入修饰符是一个嵌入块，通常但不一定被插入符号所包围(例如，。括号，引号，逗号等) 
+pcomp  --  complement of preposition 介词的补语(pcomp)是指任何不是介词短语的主语而是修饰介词短语的主语的依存关系
+pobj  --  object of preposition 介词宾语 介词宾语(pobj)是修饰介词短语中心的名词短语，它通常是介词，但也可以是分词形式的动词
+poss  --  possession modifier 占有修饰词是所有格限定词
+preconj  --  pre-correlative conjunction，预相关连词(preconj)是相关连词的第一部分，它成为第一个连词在协调中的依赖关系
+predet  --  预先确定词(predet)是一个单词标记，其 pos 标记为 PDT，用于修改名词短语的头部
+prep  --  prepositional modifier 介词，介词修饰语(prep)是任何修饰其中心意思的介词短语
+prt  --  particle 短语动词中的介词，构成动词-短语动词结构
+punct  --  punctuation，任何标点符号(PUNCT)都被指定为依赖标签 PUNCT。
+quantmod  --  modifier of quantifier
+relcl  --  relative clause modifier 关系从句修饰语，是一个关系从句
+xcomp  --  open clausal complement开放从句补语
+
+tag:
+
+$  --  symbol, currency
+''  --  closing quotation mark
+,  --  punctuation mark, comma
+-LRB-  --  left round bracket
+-RRB-  --  right round bracket
+.  --  punctuation mark, sentence closer
+:  --  punctuation mark, colon or ellipsis
+ADD  --  email
+AFX  --  affix
+CC  --  conjunction, coordinating
+CD  --  cardinal number
+DT  --  determiner
+EX  --  existential there
+FW  --  foreign word
+HYPH  --  punctuation mark, hyphen
+IN  --  conjunction, subordinating or preposition
+JJ  --  adjective (English), other noun-modifier (Chinese)
+JJR  --  adjective, comparative
+JJS  --  adjective, superlative
+LS  --  list item marker
+MD  --  verb, modal auxiliary
+NFP  --  superfluous punctuation
+NN  --  noun, singular or mass
+NNP  --  noun, proper singular
+NNPS  --  noun, proper plural
+NNS  --  noun, plural
+PDT  --  predeterminer
+POS  --  possessive ending
+PRP  --  pronoun, personal
+PRP$  --  pronoun, possessive
+RB  --  adverb
+RBR  --  adverb, comparative
+RBS  --  adverb, superlative
+RP  --  adverb, particle
+SYM  --  symbol
+TO  --  infinitival "to"
+UH  --  interjection
+VB  --  verb, base form                         动词原形
+VBD  --  verb, past tense                         动词过去分词
+VBG  --  verb, gerund or present participle     动名词或者现在分词
+VBN  --  verb, past participle                    过去分词
+VBP  --  verb, non-3rd person singular present  非第三人称单数，现在时
+VBZ  --  verb, 3rd person singular present        第三人称单数，现在时
+WDT  --  wh-determiner
+WP  --  wh-pronoun, personal
+WP$  --  wh-pronoun, possessive
+WRB  --  wh-adverb
+XX  --  unknown
+``  --  opening quotation mark
+
+pos:
+
+ADJ     --    adjective    *big, old, green, incomprehensible, first*
+ADP    --    adposition    *in, to, during*
+ADV    --    adverb    *very, tomorrow, down, where, there*
+AUX    --    auxiliary    *is, has (done), will (do), should (do)*
+CONJ  --    conjunction    *and, or, but*
+CCONJ --    coordinating conjunction    *and, or, but*
+DET --       determiner    *a, an, the*
+INTJ    --    interjection    *psst, ouch, bravo, hello*
+NOUN --    noun    *girl, cat, tree, air, beauty*
+NUM  --    numeral    *1, 2017, one, seventy-seven, IV, MMXIV*
+PART  --    particle    *’s, not,*
+PRON  --    pronoun    *I, you, he, she, myself, themselves, somebody*
+PROPN --    proper noun    *Mary, John, London, NATO, HBO*
+PUNCT --    punctuation    *., (, ), ?*
+SCONJ --    subordinating conjunction    *if, while, that*
+SYM    --    symbol    *$, %, §, ©, +, −, ×, ÷, =, :), 😝*
+VERB  --    verb    *run, runs, running, eat, ate, eating*
+X        --    other    *sfpksdpsxmsa*
+SPACE --    space
+######ROOT：要处理文本的语句
+IP：简单从句
+NP：名词短语
+VP：动词短语
+PU：断句符，通常是句号、问号、感叹号等标点符号
+LCP：方位词短语
+PP：介词短语
+CP：由‘的’构成的表示修饰性关系的短语
+DNP：由‘的’构成的表示所属关系的短语
+ADVP：副词短语
+ADJP：形容词短语
+DP：限定词短语
+QP：量词短语
+NN：常用名词
+NR：固有名词
+NT：时间名词
+PN：代词
+VV：动词
+VC：是
+CC：表示连词
+VE：有
+VA：表语形容词
+AS：内容标记（如：了）
+VRD：动补复合词
+CD: 表示基数词
+DT: determiner 表示限定词
+EX: existential there 存在句
+FW: foreign word 外来词
+IN: preposition or conjunction, subordinating 介词或从属连词
+JJ: adjective or numeral, ordinal 形容词或序数词
+JJR: adjective, comparative 形容词比较级
+JJS: adjective, superlative 形容词最高级
+LS: list item marker 列表标识
+MD: modal auxiliary 情态助动词
+PDT: pre-determiner 前位限定词
+POS: genitive marker 所有格标记
+PRP: pronoun, personal 人称代词
+RB: adverb 副词
+RBR: adverb, comparative 副词比较级
+RBS: adverb, superlative 副词最高级
+RP: particle 小品词 
+SYM: symbol 符号
+TO:”to” as preposition or infinitive marker 作为介词或不定式标记 
+WDT: WH-determiner WH限定词
+WP: WH-pronoun WH代词
+WP$: WH-pronoun, possessive WH所有格代词
+WRB:Wh-adverb WH副词
+ 
+
+
+关系表示
+
+abbrev: abbreviation modifier，缩写
+acomp: adjectival complement，形容词的补充；
+advcl : adverbial clause modifier，状语从句修饰词
+advmod: adverbial modifier状语
+agent: agent，代理，一般有by的时候会出现这个
+amod: adjectival modifier形容词
+appos: appositional modifier,同位词
+attr: attributive，属性
+aux: auxiliary，非主要动词和助词，如BE,HAVE SHOULD/COULD等到
+auxpass: passive auxiliary 被动词
+cc: coordination，并列关系，一般取第一个词
+ccomp: clausal complement从句补充
+complm: complementizer，引导从句的词好重聚中的主要动词
+conj : conjunct，连接两个并列的词。
+cop: copula。系动词（如be,seem,appear等），（命题主词与谓词间的）连系
+csubj : clausal subject，从主关系
+csubjpass: clausal passive subject 主从被动关系
+dep: dependent依赖关系
+det: determiner决定词，如冠词等
+dobj : direct object直接宾语
+expl: expletive，主要是抓取there
+infmod: infinitival modifier，动词不定式
+iobj : indirect object，非直接宾语，也就是所以的间接宾语；
+mark: marker，主要出现在有“that” or “whether”“because”, “when”,
+mwe: multi-word expression，多个词的表示
+neg: negation modifier否定词
+nn: noun compound modifier名词组合形式
+npadvmod: noun phrase as adverbial modifier名词作状语
+nsubj : nominal subject，名词主语
+nsubjpass: passive nominal subject，被动的名词主语
+num: numeric modifier，数值修饰
+number: element of compound number，组合数字
+parataxis: parataxis: parataxis，并列关系
+partmod: participial modifier动词形式的修饰
+pcomp: prepositional complement，介词补充
+pobj : object of a preposition，介词的宾语
+poss: possession modifier，所有形式，所有格，所属
+possessive: possessive modifier，这个表示所有者和那个’S的关系
+preconj : preconjunct，常常是出现在 “either”, “both”, “neither”的情况下
+predet: predeterminer，前缀决定，常常是表示所有
+prep: prepositional modifier
+prepc: prepositional clausal modifier
+prt: phrasal verb particle，动词短语
+punct: punctuation，这个很少见，但是保留下来了，结果当中不会出现这个
+purpcl : purpose clause modifier，目的从句
+quantmod: quantifier phrase modifier，数量短语
+rcmod: relative clause modifier相关关系
+ref : referent，指示物，指代
+rel : relative
+root: root，最重要的词，从它开始，根节点
+tmod: temporal modifier
+xcomp: open clausal complement
+xsubj : controlling subject 掌控者
+中心语为谓词
+  subj — 主语
+ nsubj — 名词性主语（nominal subject） （同步，建设）
+   top — 主题（topic） （是，建筑）
+npsubj — 被动型主语（nominal passive subject），专指由“被”引导的被动句中的主语，一般是谓词语义上的受事 （称作，镍）
+ csubj — 从句主语（clausal subject），中文不存在
+ xsubj — x主语，一般是一个主语下面含多个从句 （完善，有些）
+中心语为谓词或介词   
+   obj — 宾语
+  dobj — 直接宾语 （颁布，文件）
+  iobj — 间接宾语（indirect object），基本不存在
+ range — 间接宾语为数量词，又称为与格 （成交，元）
+  pobj — 介词宾语 （根据，要求）
+  lobj — 时间介词 （来，近年）
+中心语为谓词
+  comp — 补语
+ ccomp — 从句补语，一般由两个动词构成，中心语引导后一个动词所在的从句(IP) （出现，纳入）
+ xcomp — x从句补语（xclausal complement），不存在   
+ acomp — 形容词补语（adjectival complement）
+ tcomp — 时间补语（temporal complement） （遇到，以前）
+lccomp — 位置补语（localizer complement） （占，以上）
+       — 结果补语（resultative complement）
+中心语为名词
+   mod — 修饰语（modifier）
+  pass — 被动修饰（passive）
+  tmod — 时间修饰（temporal modifier）
+ rcmod — 关系从句修饰（relative clause modifier） （问题，遇到）
+ numod — 数量修饰（numeric modifier） （规定，若干）
+ornmod — 序数修饰（numeric modifier）
+   clf — 类别修饰（classifier modifier） （文件，件）
+  nmod — 复合名词修饰（noun compound modifier） （浦东，上海）
+  amod — 形容词修饰（adjetive modifier） （情况，新）
+advmod — 副词修饰（adverbial modifier） （做到，基本）
+  vmod — 动词修饰（verb modifier，participle modifier）
+prnmod — 插入词修饰（parenthetical modifier）
+   neg — 不定修饰（negative modifier） (遇到，不)
+   det — 限定词修饰（determiner modifier） （活动，这些）
+ possm — 所属标记（possessive marker），NP
+  poss — 所属修饰（possessive modifier），NP
+  dvpm — DVP标记（dvp marker），DVP （简单，的）
+dvpmod — DVP修饰（dvp modifier），DVP （采取，简单）
+  assm — 关联标记（associative marker），DNP （开发，的）
+assmod — 关联修饰（associative modifier），NP|QP （教训，特区）
+  prep — 介词修饰（prepositional modifier） NP|VP|IP（采取，对）
+ clmod — 从句修饰（clause modifier） （因为，开始）
+ plmod — 介词性地点修饰（prepositional localizer modifier） （在，上）
+   asp — 时态标词（aspect marker） （做到，了）
+partmod– 分词修饰（participial modifier） 不存在
+   etc — 等关系（etc） （办法，等）
+中心语为实词
+  conj — 联合(conjunct)
+   cop — 系动(copula) 双指助动词？？？？
+    cc — 连接(coordination)，指中心词与连词 （开发，与）
+其它
+  attr — 属性关系 （是，工程）
+cordmod– 并列联合动词（coordinated verb compound） （颁布，实行）
+  mmod — 情态动词（modal verb） （得到，能）
+    ba — 把字关系
+tclaus — 时间从句 （以后，积累）
+       — semantic dependent
+   cpm — 补语化成分（complementizer），一般指“的”引导的CP （振兴，的）
