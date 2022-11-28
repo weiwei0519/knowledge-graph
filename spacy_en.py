@@ -2,7 +2,7 @@
 # spacy util function
 
 '''
-@File: spacy_util
+@File: spacy_en
 @Author: WeiWei
 @Time: 2022/11/26
 @Email: weiwei_519@outlook.com
